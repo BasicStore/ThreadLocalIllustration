@@ -43,12 +43,12 @@ public class ThreadLocalMain implements Callable {
     	
     }
  
-    public static void main(String[] args) {
-      final ExecutorService executorService = Executors.newFixedThreadPool(3);
-      final ThreadLocalMain threadLocalExample = new ThreadLocalMain();
-      // since there are 3 threads in the created thread pool,thread id range from 0-2
-      IntStream.range(0,8).forEach(i -> executorService.submit(threadLocalExample));
-    }
+//    public static void main(String[] args) {
+//      final ExecutorService executorService = Executors.newFixedThreadPool(3);
+//      final ThreadLocalMain threadLocalExample = new ThreadLocalMain();
+//      // since there are 3 threads in the created thread pool,thread id range from 0-2
+//      IntStream.range(0,8).forEach(i -> executorService.submit(threadLocalExample));
+//    }
    
     
 }
