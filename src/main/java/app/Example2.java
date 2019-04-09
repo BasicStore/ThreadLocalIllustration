@@ -56,7 +56,7 @@ public class Example2 implements Runnable
 	   }
 	
 	   
-// not 100% successful.......	
+// not 100% successful.......there seems to be some collision	
 //	   public static void main(String[] args) {
 //	      final ExecutorService executorService = Executors.newFixedThreadPool(3);
 //	      final Example2 threadLocalExample = new Example2();
